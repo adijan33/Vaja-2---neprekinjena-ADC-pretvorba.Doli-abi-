@@ -36,7 +36,7 @@ Potenciometer smo povezali z STM ploščico in z njegovo pomocjo izvedli nepreki
                             SLIKA PINOUT 
 <img width="710" height="620" alt="Posnetek zaslona 2025-11-05 100631" src="https://github.com/user-attachments/assets/cba8c8f4-97a5-4bbd-b1d3-8326e68dd82e" />
 
-SLIKA VEZJA
+                            SLIKA VEZJA
 ![Image](https://github.com/user-attachments/assets/79d7644b-adbb-483c-b47b-564ce0648815)
 
 
