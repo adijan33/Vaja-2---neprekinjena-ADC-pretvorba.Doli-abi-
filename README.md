@@ -11,3 +11,20 @@ PC3
 
 d) Kaj se izpiše poleg pina? Izpiše se ADC3_IN. Potenciometer pravilno priključite na Nucleo razvojno ploščo preko 
 protoborda (potenciometer ima 3 priključke: GND, out in +3,3 V). 
+
+
+e) V Clock Configuration spremenimo APB1 peripheral clock (MHz) na 16 MHz. (potrdite z ENTER) Kaj 
+opazite? Ostale spremenljivke zraven se tudi spremenijo, npr. peripheral clocks.
+
+f) V Configuration kliknemo ADC gumb. V Parameter settings izberite ločljivost pretvorbe na 8-bitno, torej 
+je območje vrednosti od 0 ÷ 255. 
+
+
+g) Clock Prescaler nastavimo z deliteljem 4. Kolikšna je sedaj preskalirana frekvenca takta fpreskalirana? 
+Fpreslikana je 4MHz
+
+i) Sampling time (čas vzorčenja tvz_ciklih) spremenite na 247.5 cikov (najdete pod Rank). 
+Pravi čas vzorčenja se nato poveča še za 12 ciklov zaradi procesa samega. Koliko znaša pravi čas 
+vzorčenja tvz v mikro sekundah?
+
+(enačba: tvz = t'vz_ciklih / fpreskalriana)? 64,9μs
