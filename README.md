@@ -1,4 +1,4 @@
-# Vaja-2---neprekinjena-ADC-pretvorba.Doli-abi-
+# Vaja2-ADC-continuos-conversion-Nucleo
 b) V Analog razdelku levo od sheme mikroprocesorja kliknite Analog. Koliko je vseh ADC pretvornikov? 
 
 Trije ADC pretvorniki
